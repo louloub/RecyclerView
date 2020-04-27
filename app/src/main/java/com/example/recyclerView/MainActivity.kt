@@ -19,16 +19,11 @@ class MainActivity : Activity() {
         viewManager = LinearLayoutManager(this)
 
         val myDataset = arrayOf(
-                "test 1",
-                "test 2",
-                "test 3",
-                "test 4",
-                "test 5",
-                "test 6",
-                "test 7",
-                "test 8",
-                "test 9",
-                "test 10"
+                "http://www.facebook.com/YourDJMontpellier",
+                "http://www.facebook.com/YourDJToulouse",
+                "http://www.facebook.com/YourDJMarseille",
+                "http://www.facebook.com/YourDJBordeaux",
+                "http://www.facebook.com/YourDJNantes"
         )
         viewAdapter = MyAdapter(myDataset)
 
